@@ -15,7 +15,7 @@ const HomeCards = () => {
 						</p>
 						<Link
 							to="/jobs.html"
-							clLinkssName="inline-block bg-black text-white rounded-lg px-4 py-2 hover:bg-gray-700"
+							className="inline-block bg-black text-white rounded-lg px-4 py-2 hover:bg-gray-700"
 						>
 							Browse Jobs
 						</Link>
