@@ -11,7 +11,7 @@ const JobListings = ({ isHome = false }) => {
 		const fetchJobs = async () => {
 			try {
 				let urlLimiter = isHome ? "?_limit=3" : "";
-				let response = await fetch(`http://localhost:8000/jobs${urlLimiter}`);
+				let response = await fetch(`/api/jobs${urlLimiter}`);
 				let data = await response.json();
 				setJobs(data);
 			} catch (error) {
